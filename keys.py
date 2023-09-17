@@ -1,0 +1,2 @@
+testnet_api_public = "8a091c7b9a5cec1374dac77d19a7f6148ed36c8c52c518cb9a513c2dfbd1fe48"
+testnet_api_secret = "4fd20c9e5982f78770ff3488f807f28a9430a1d69d9a6d8191e0ecf5f5dbf50d"
