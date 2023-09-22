@@ -2,10 +2,10 @@ from binance.client import Client
 import pandas as pd
 from binance import ThreadedWebsocketManager
 import os
-import keys
+# import keys
 
-api_key = keys.testnet_api_public
-secret_key = keys.testnet_api_secret
+api_key = os.getenv("binance_udemy_public_key")
+secret_key = os.getenv("binance_udemy_secret_key")
 
 client = Client(api_key=api_key, api_secret=secret_key, tld="com", testnet=True)
 
